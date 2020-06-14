@@ -7,8 +7,6 @@ public class Cat extends Animal {
         super(name, targetRun, targetJump, targetSwim);
 
     }
-
-
     @Override
     public void jump() {
         if (getTargetJump() <= maxJumpCat) {
