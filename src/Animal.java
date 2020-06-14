@@ -33,7 +33,6 @@ public abstract class Animal {
     public void swim() {
 
     }
-
     public void animalInfo() {
         System.out.println(" Имя живтоного " + name);
     }
